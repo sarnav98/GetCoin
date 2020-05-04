@@ -102,5 +102,3 @@ Thank you and Keep supporting -> https://github.com/sarnav98
 -------------------------------------------------------------
 Created by - https://github.com/sarnav98.
 -----------------------------------------
-Dated - 04/05/2020.
--------------------
