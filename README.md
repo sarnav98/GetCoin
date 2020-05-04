@@ -89,7 +89,9 @@ The isChainValid() Boolean should also check if each block has a solved by minin
 Requirements ->
 -------------
 Java and JDK - https://www.oracle.com/in/java/technologies/javase-downloads.html
+
 IntelliJ - https://www.jetbrains.com/idea/download/
+
 Eclipse - https://www.eclipse.org/downloads/
 
 
