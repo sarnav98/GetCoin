@@ -77,23 +77,29 @@ At the time of writing Litecoin’s difficulty is around 442,592.
 The GetCoin class to trigger the mineBlock() method for each new block. 
 The isChainValid() Boolean should also check if each block has a solved by mining thehash.
 
-
 ----------------
+
 Requirements:-
+-------------
 You will need:
-Java and JDK installed. ( duh ).
-Eclipse ( or another IDE/Text Editor ).
+Java and JDK installed
+Eclipse / IntelliJ ( or another IDE/Text Editor ).
 ----------------------------------------------------------------
 
 Dependencies -> GSON 2.6.2
+--------------------------
 Link -> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
 
 Why?
+----
 -> This will allow us to turn an object into JSON.
 It’s a super useful library that we will also be using further down the line for peer2peer stuff.
 But feel free to use an alternate method.
 --------------------------------------------------------------------------------------
 
 Thank you and Keep supporting -> https://github.com/sarnav98
+-------------------------------------------------------------
 Created by - https://github.com/sarnav98.
+-----------------------------------------
 Dated - 04/05/2020.
+-------------------
