@@ -6,13 +6,10 @@ A blockchain is just a chain/list of blocks.
 Each block in the blockchain will have its own digital fingerprint, 
 Contain digital fingerprint of the previous block, and have some data 
 (this data could be transactions for example).
-Hash = Digital Fingerprint.
 Each block doesn’t just contain the hash of the block before it, but its own hash is in part, calculated from the previous hash. 
 If the previous block’s data is changed then the previous block’s hash will change (since it is calculated in part, by the data),
 In turn affecting all the hashes of the blocks there after. 
-Calculating and comparing the hashes allow us to see if a blockchain is invalid.
-
-
+Calculating and comparing the hashes allow us to see if a blockchain is invalid or not.
 
 -----------------------------------------------
 #Question & Answers
