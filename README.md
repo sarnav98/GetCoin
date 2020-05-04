@@ -20,11 +20,10 @@ Calculating and comparing the hashes allow us to see if a blockchain is invalid.
 -------------------
 Q1. What is GetCoin?
 --------------------
--> A personal BlockChain generator created and programmed in JAVA.
+A personal BlockChain generator created and programmed in JAVA.
 
 Q2. What are the properties of GetCoin?
 ---------------------------------------
-->
 1. It is made up of blocks that store data.
 2. Has a digital signature that chains your blocks together.
 3. Requires proof of work mining to validate new blocks.
@@ -32,7 +31,6 @@ Q2. What are the properties of GetCoin?
 
 Q3. Who made GetCoin?
 ---------------------
-->
 https://github.com/sarnav98
 ------------------------------
 
