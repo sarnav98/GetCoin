@@ -75,6 +75,8 @@ Low difficulty like 1 or 2 can be solved nearly instantly on most computers.
 I’d suggest something around 4–6 for testing. 
 At the time of writing Litecoin’s difficulty is around 442,592.
 
+What is difficulty? -> https://en.bitcoin.it/wiki/Difficulty
+
 *public static int difficulty = 5;* // This keeps the diffuculty=5 for our GetCoin.
 
 The GetCoin class to trigger the mineBlock() method for each new block. 
@@ -82,19 +84,18 @@ The isChainValid() Boolean should also check if each block has a solved by minin
 
 ----------------
 
-#Requirements:-#
+Requirements ->
 -------------
 You will need:
 Java and JDK installed
 Eclipse / IntelliJ ( or another IDE/Text Editor ).
-----------------------------------------------------------------
 
 Dependencies -> 
 ---------------
 
 GSON 2.6.2 - Link -> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
 
-Why use GSON?
+Why use GSON ->
 -------------
 This will allow us to turn an object into JSON.
 It’s a super useful library that we will also be using further down the line for PEER-TO-PEER stuff.
