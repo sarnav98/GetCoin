@@ -1,18 +1,24 @@
 # GetCoin
 ---------
-What makes GetCoin a Blockchain?
----------------------------------
-A blockchain is just a chain/list of blocks. 
-Each block in the blockchain will have its own digital fingerprint, 
-Contain digital fingerprint of the previous block, and have some data 
-(this data could be transactions for example).
-Each block doesn’t just contain the hash of the block before it, but its own hash is in part, calculated from the previous hash. 
+What is a Blockchain?
+----------------------
+Blockchain is just a chain of blocks. 
+Where each block in the blockchain will have its own digital fingerprint which is called - 'Hash', 
+And also contain the digital fingerprint of the previous block, and have some data in form of anything (Could be transactions, could be strings).
+Each block doesn’t just contain the hash of the block previous to it, but its own hash is in part, calculated from the previous hash. 
 If the previous block’s data is changed then the previous block’s hash will change (since it is calculated in part, by the data),
 In turn affecting all the hashes of the blocks there after. 
 Calculating and comparing the hashes allow us to see if a blockchain is invalid or not.
 
+What GetCoin Does and how GetCoin qualifies as a BlockChain?
+-------------------------------------------------------------
+#GetCoin# does the same it creates hashes (the digital fingerprints) and some data into it.
+It uses uses SHA256 Algorithm to generate fingerprints and is done by importing 'java.security.MessageDigest;'
+It takes a string and applies SHA256 algorithm to it, and returns the generated signature as a string.
+For more in-dept working of GetCoin check out the README.md and focus on #Project related#.
+
 -----------------------------------------------
-#Question & Answers
+#Question & Answers#
 -------------------
 Q1. What is GetCoin?
 --------------------
@@ -30,7 +36,7 @@ Q3. Who made GetCoin?
 https://github.com/sarnav98
 ------------------------------
 
-#Project related
+#Project related#
 -----------------
 Block class:
 ------------
@@ -76,24 +82,25 @@ The isChainValid() Boolean should also check if each block has a solved by minin
 
 ----------------
 
-Requirements:-
+#Requirements:-#
 -------------
 You will need:
 Java and JDK installed
 Eclipse / IntelliJ ( or another IDE/Text Editor ).
 ----------------------------------------------------------------
 
-Dependencies -> GSON 2.6.2
---------------------------
-Link -> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+Dependencies -> 
+---------------
 
-Why?
-----
--> This will allow us to turn an object into JSON.
-It’s a super useful library that we will also be using further down the line for peer2peer stuff.
-But feel free to use an alternate method.
+GSON 2.6.2 - Link -> https://repo1.maven.org/maven2/com/google/code/gson/gson/2.6.2/gson-2.6.2.jar
+
+Why use GSON?
+-------------
+This will allow us to turn an object into JSON.
+It’s a super useful library that we will also be using further down the line for PEER-TO-PEER stuff.
+But you can try any other method.
+
 --------------------------------------------------------------------------------------
-
 Thank you and Keep supporting -> https://github.com/sarnav98
 -------------------------------------------------------------
 Created by - https://github.com/sarnav98.
