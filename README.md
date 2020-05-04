@@ -12,7 +12,7 @@ Calculating and comparing the hashes allow us to see if a blockchain is invalid 
 
 What GetCoin Does and how GetCoin qualifies as a BlockChain?
 -------------------------------------------------------------
-#GetCoin# does the same it creates hashes (the digital fingerprints) and some data into it.
+GetCoin does the same it creates hashes (the digital fingerprints) and some data into it.
 It uses uses SHA256 Algorithm to generate fingerprints and is done by importing 'java.security.MessageDigest;'
 It takes a string and applies SHA256 algorithm to it, and returns the generated signature as a string.
 For more in-dept working of GetCoin check out the README.md and focus on #Project related#.
